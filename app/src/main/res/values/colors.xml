@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryColor">#01170C</color>
+    <color name="primaryStrokeColor">#1201170C</color>
+    <color name="black">#121614</color>
+    <color name="black_transparent">#16121614</color>
+    <color name="yellow">#FFBF55</color>
+    <color name="gradient_black">#99000000</color>
+    <color name="background">#FFFFFF</color>
+    <color name="arrow_color">#121614</color>
+    <color name="sub_text">#6f7c8e</color>
+    <color name="text_color">#141719</color>
+    <color name="otp_box">#f9f9f9</color>
+    <color name="off_white">#F7F7F7</color>
+    <color name="theme">#00A651</color>
+    <color name="status_bar_color">#FEF2E2</color>
+    <color name="secondaryColor">#FFF</color>
+    <color name="green">#0AA388</color>
+
+    <color name="light_theme">#1400A651</color>
+    <color name="status_bar">#DAF1E6</color>
+    <color name="hint_color">#996C757D</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="light_blue">#0D1877F2</color>
+    <color name="white">#FFF</color>
+    <color name="redd">#EB4335</color>
+    <color name="red">#F71402</color>
+    <color name="half_red">#80EB4335</color>
+    <color name="redlight">#66FFD0CD</color>
+    <color name="cardShadow">#0A131715</color>
+    <color name="light__blue">#4598E6</color>
+    <color name="blue">#246BFD</color>
+    <color name="lightgrey">#D9D9D9</color>
+    <color name="iconcolor">#666666</color>
+    <color name="fragment_bg">#F9FBFE</color>
+    <color name="tabtext">#A2A2A2</color>
+    <color name="complaintId">#7B6F72</color>
+    <color name="viewmore">#003083</color>
+    <color name="switch_track">#34C759</color>
+    <color name="switch_track_off_color">#e9e9eb</color>
+    <color name="mcv_stroke">#7C7B79</color>
+    <color name="back_of">#246AFD</color>
+    <color name="view_color">#CCCCCC</color>
+    <color name="php_color">#C4D7FF</color>
+    <color name="logout_color">#5E5A5A</color>
+    <color name="update_color">#F7F7F7</color>
+    <color name="update_tab_back">#E3E3E3</color>
+    <color name="check_out_location">#DCE8FF</color>
+    <color name="logout_underline_color">#CCCCCC</color>
+
+
+</resources>

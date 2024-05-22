@@ -1,0 +1,93 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.hbh_service_engineer" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/status_bar_color</item>
+        <item name="colorOnPrimary">@color/secondaryColor</item>
+        <item name="colorAccent">@color/blue</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@color/secondaryColor</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/fragment_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:autofilledHighlight" tools:targetApi="o">@android:color/transparent
+        </item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:listViewStyle">@style/Widget.MyTheme.ListView</item>
+        <item name="android:scrollViewStyle">@style/Widget.MyTheme.ScrollView</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+
+
+
+    <style name="Widget.MyTheme.ListView" parent="android:Widget.ListView">
+        <item name="android:overScrollMode">never</item>
+        <item name="android:scrollbars">none</item>
+
+    </style>
+
+    <style name="Widget.MyTheme.ScrollView" parent="android:Widget.ScrollView">
+        <item name="android:overScrollMode">never</item>
+        <item name="android:scrollbars">none</item>
+
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="backgroundTint">@color/secondaryColor</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="BottomSheetBackStyle">
+        <item name="android:backgroundTint">@color/secondaryColor</item>
+    </style>
+
+    <style name="BottomNavigationView" >
+
+        <item name="android:background">@drawable/bg_bottom_nav</item>
+
+    </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+
+        <item name="color">@color/blue</item>
+
+    </style>
+
+    <style name="SmallCapsTabTextStyle">
+        <item name="android:textSize">12sp</item> <!-- Set your desired text size -->
+        <item name="android:textAllCaps">false</item> <!-- Enable small caps -->
+        <item name="android:fontFamily">@font/poppins_semibold</item> <!-- Enable small caps -->
+
+    </style>
+
+<!--    <style name="DatePickerDialogStyle">-->
+<!--        <item name="android:background">#FF00FF</item> &lt;!&ndash; Change the background color as needed &ndash;&gt;-->
+<!--        <item name="android:textColor">#FFFFFF</item> &lt;!&ndash; Change the text color as needed &ndash;&gt;-->
+<!--    </style>-->
+
+
+
+    <!--    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">-->
+
+<!--        <item name="android:background">@drawable/bg_bottom_nav</item>-->
+
+<!--    </style>-->
+
+
+
+</resources>

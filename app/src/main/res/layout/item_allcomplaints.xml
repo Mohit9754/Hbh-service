@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_closed"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="7dp"
+        android:elevation="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:id="@+id/iv_status"
+            android:src="@drawable/ic_closed"
+            tools:ignore="ImageContrastCheck,VisualLintBounds"
+            android:importantForAccessibility="no" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        android:elevation="8dp"
+        android:layout_marginVertical="9dp"
+        app:cardBackgroundColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mohit_chouhan"
+            android:textSize="13sp"
+            android:id="@+id/tv_name"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_semibold"
+            tools:ignore="RelativeOverlap" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/complaints_id"
+                android:textSize="11sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginEnd="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1"
+                android:id="@+id/tv_complaint_id"
+                android:textSize="11sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"
+                tools:ignore="SmallSp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cateroryy"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginEnd="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mobile"
+                android:layout_marginEnd="5dp"
+                android:textColor="@color/black"
+                android:id="@+id/tv_category"
+                android:textSize="11sp"
+                android:fontFamily="@font/poppins_semibold"
+                tools:ignore="SmallSp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/ll_model"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/model"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginEnd="3dp"
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fgsdgh"
+                android:id="@+id/tv_model"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:fontFamily="@font/poppins_semibold"
+                tools:ignore="SmallSp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:id="@+id/ll_serial_no"
+            android:layout_marginTop="1dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/machine_serial_numberr"
+                android:textColor="@color/black"
+                android:layout_marginEnd="3dp"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="11sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_234235324565"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/tv_machinesrno"
+                android:layout_marginTop="0.5dp"
+                android:textSize="11sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"
+                tools:ignore="SmallSp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/datee"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_31_jul_2023_3_31_pm"
+                android:textSize="11sp"
+                android:id="@+id/tv_date"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

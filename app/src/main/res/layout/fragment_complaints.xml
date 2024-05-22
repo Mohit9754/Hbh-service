@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/fragment_bg"
+    tools:context=".main_package.fragment.Fragment_Complaints">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingVertical="15dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/complaints"/>
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:id="@+id/iv_filter"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/ic_forfilter"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        app:cardElevation="5dp"
+        android:layout_marginBottom="12dp"
+
+        app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="@color/white">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tl_complaints"
+            app:tabIndicatorColor="@color/white"
+            app:tabRippleColor="@color/white"
+            android:elevation="@dimen/_1sdp"
+            app:tabBackground="@drawable/bg_indicator"
+            app:tabIndicator="@drawable/bg_indicator"
+            app:tabIndicatorHeight="10dp"
+            app:tabTextAppearance="@style/SmallCapsTabTextStyle"
+            android:layout_width="match_parent"
+            app:tabTextColor="@color/tabtext"
+            app:tabSelectedTextColor="@color/white"
+            android:layout_height="match_parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vp_complaints"/>
+
+</LinearLayout>
